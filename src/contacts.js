@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Contact from "./contact";
 const Contacts = ({ contacts }) => {
   return (
@@ -6,9 +6,7 @@ const Contacts = ({ contacts }) => {
       <div className="title">
         <h2>My Contacts</h2>
         <div className="underline"></div>
-      </div>
-      <input type="text" value={search} placeholder="search" />
-      <div>
+
         {contacts
           .sort((a, b) => (a.name > b.name ? 1 : -1))
           .map((contact) => {

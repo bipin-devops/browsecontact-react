@@ -181,6 +181,7 @@ main {
 }
 
 .single-contact {
+  text-align: left;
   background: var(--clr-white);
   border-radius: var(--radius);
   margin: 2rem 0;
@@ -215,9 +216,6 @@ main {
   background: transparent;
   /* background-color: transparent; */
   border: rgb(255, 255, 255);
-}
-#searchbox {
-  background-color: transparent;
 }
 
 .phone-number:hover {
